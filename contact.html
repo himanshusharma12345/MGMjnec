@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,200;1,300;1,500&display=swap"
+    rel="stylesheet0">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <title>mgm.ac.in</title>
+</head>
+
+<body>
+  <section class="SUB-Header">
+    <nav>
+      <a href="index.html"><img src="logo4.png" alt=""></a>
+      <h1>MGM UNIVERSITY</h1>
+      <div class="nav-links" id="navlink">
+        <p  class="ico1" onclick="hidemenu()">✖</p>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/About.html">About</a></li>
+          <li><a href="/Course.html">course</a></li>
+          <li><a href="/Blog.html">Blog</a></li>
+          <li><a href="/Contact.html">Contact</a></li>
+          <li><a href="/studentlogin.html">Student login</a></li>
+        </ul>
+      </div>
+      <p class="ico1" onclick="showmenu()">☰</p>
+    </nav>
+    <h1 class="text">Contact us</h1>
+  </section>
+
+  <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.055494135355!2d75.35352431491373!3d19.87987848663188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba3a0ab7088b7%3A0xb5af50109d8a8cce!2sMGM%20University%20Aurangabad!5e0!3m2!1sen!2sin!4v1649522264101!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section class="contactus">
+    <div class="row">
+        <div class="contact_col">
+          <div>
+            <span>
+               <h5>XYZ Road ,MGM UNIVERSITY</h5>
+               <p>Aurangabad , Maharastra ,IN</p>
+            </span>
+          </div>
+          <div>
+           <span>
+              <h5>+91 17246182490</h5>
+              <p>Monday to saturday , 10Am to 6Am</p>
+           </span>
+         </div>
+         <div>
+           <span>
+              <h5>mgm@gmail.com</h5>
+              <p>Email us your query</p>
+           </span>
+         </div>
+        </div>
+        <div class="contact_col">
+          <form action="">
+            <input type="text" placeholder="enter your name" required>
+            <input  type="email" placeholder="enter your email address" required>
+            <input  type="text" placeholder="enter your subject" required>
+            <textarea class="area" rows="8" placeholder="message" required></textarea>
+            <a href="" class="hero-btn">send message</a>
+            </form>
+        </div>
+    </div>
+  </section>
+
+   <section class="footer">
+     
+    <div class="porto-u-heading  wpb_custom_95aa9a11c17ad45cfabaf210d84ee7cc" data-hspacer="no_spacer" data-halign="center" style="text-align:center"><div class="porto-u-main-heading"><h2 style="font-weight:600;color:#703c19;margin-bottom: 10px;font-size:35px;letter-spacing:1;">About us</h2></div></div> 
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, cumque dignissimos quia <br> consequatur tempore maxime obcaecati sunt architecto blanditiis provident placeat. Dicta cupiditate dignissimos rerum.</p>
+     <p>Made by himanshu</p>
+   </section>
+     <script>
+    var navlink = document.getElementById("navlink");
+
+    function showmenu(){
+      navlink.style.right = "0";
+    }
+
+    function hidemenu(){
+      navlink.style.right = "-200px";
+    }
+
+  </script>
+
+
+
+  
+</body>
+
+</html>
